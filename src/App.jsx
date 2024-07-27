@@ -19,7 +19,8 @@ function App() {
     try{
        setCount(eval(count).toString());
     }catch(error){
-       setCount("invalid input")
+       setCount("")
+       alert("invalid input")
 
     }
    
